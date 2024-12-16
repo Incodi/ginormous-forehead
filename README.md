@@ -2,7 +2,7 @@
 
 This is a joke project for a post on r/SLGreddit that matches the theme of the posts there.
 
-Click here: [to view the website](index.html)
+Click here: [to view the website](https://incodi.github.io/SLGreddit-funny/)
 
 ## Here's some background:
 
