@@ -1,4 +1,4 @@
-# forehead
+# ginormous forehead
 
 This is a joke project for a post on r/SLGreddit that matches the theme of the posts there.
 
