@@ -4,6 +4,9 @@ This is a joke project for a post on r/SLGreddit that matches the theme of the p
 
 Click here: [to view the website](https://incodi.github.io/ginormous-forehead/)
 
+This project is based off of Endless Horse.
+I customized it to match the forehead joke while adding cases that make text or ASCII art appear while scrolling.
+
 ## Here's some background:
 
 I watch a lot of Youtube, and I have grown up with it. 
