@@ -17,7 +17,7 @@ document.addEventListener('scroll', function () {
 
   var addThis = '';
 
-  if (Math.random() < 0.008) { 
+  if (Math.random() < 0.007) { 
     addThis += my_string2;
   }
   if (Math.random() < 0.008) {
@@ -26,7 +26,7 @@ document.addEventListener('scroll', function () {
   if (Math.random() < 0.001) {
     addThis += my_string4;
   }
-  if (Math.random() < 0.01) {
+  if (Math.random() < 0.007) {
     addThis += my_string5;
   }
   if (Math.random() < 0.0001) {
