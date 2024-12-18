@@ -11,8 +11,30 @@ document.addEventListener('scroll', function () {
   var my_string3 = '            |subscribe to craine|r \n';
   var my_string4 = '            |slogo is cool      | \n';
   var my_string5 = '            |crainer is cool    | \n';
-  var my_string6 = '            |you are so lucky if| you see this \n';
   var orElse = '            |watch a crainer vid|eo or else... \n'; 
+
+  /*
+  var template =
+  `            |                   |  
+            |                   |
+            |                   |
+            |                   |
+            |                   |
+            |                   |
+            |                   |
+            |                   |
+            |                   |
+            |                   |
+            |                   |
+            |                   |
+            |                   |
+            |                   |
+            |                   |
+            |                   |
+            |                   |
+`;
+*/
+
   var monkey = 
   `            |                   |  
             |                   |    __
@@ -64,6 +86,7 @@ var bee =
   -(||)(')  |                   |
     '''     |                   |
 `;
+var slugs = '𓆑𓆑𓆑𓆑  |                   |  \n'
 
 var earth =
 `            |                   |  
@@ -79,8 +102,108 @@ var earth =
             |                   |          '-.___'_.-'
 `;
 
-var slugs = '𓆑𓆑𓆑𓆑  |                   |  \n'
+var griffin =
+`            |                   |               A LEGENDARY GRIFFIN!!!
+            |                   |
+            |                   |              _____,    _..-=-=-=-=-====--,
+            |                   |           _.'a   /  .-',___,..=--=--==-''
+            |                   |          ( _     \\ /  //___/-=---=----'
+            |                   |           ' '\\    /  //---/--==----=-'
+            |                   |        ,-.    | / \\_//-_.'==-==---='
+            |                   |       (.-.'\\  | |'../-'=-=-=-=--'
+            |                   |        (' '\\'\\| //_|-\\.';-~''''~,        _
+            |                   |             \\ | \\_,_,_\\.'        \\     .'_'\\
+            |                   |              '\\            ,    , \\    || '\\\\
+            |                   |                \\    /   _.--\\    \\ '._.'/  / |
+            |                   |                /  /'---'   \\ \\   |''---'   \\/
+            |                   |               / /'          \\ ;-. \\
+            |                   |            __/ /           __) \\ ) '|
+            |                   |          ((='--;)         (,___/(,_/
+            |                   |
+            |                   |        You may be scrolling a bit too much... 
+            |                   |      or you are just a bit too lucky.
+            |                   |      But give yourself a pat on the back,
+            |                   |       because this is encounter is LEGENDARY.
+`;
 
+var long_slug = 
+`            |                   |LONG SLUG LONG SLUG LONG SLUG
+            |                   |LONG SLUG LONG SLUG LONG SLUG
+            |                   |LONG SLUG LONG SLUG LONG SLUG
+            |                   |     _.**._      _.**._
+            |                   |   /   M    \\  /   M    \\
+            |                   |  |   MM     ||   MM     |
+            |                   |  |   MMMM   ||   MMMM   |
+            |                   |   \\   MM   /  \\   MM   /
+            |                   |    ?------!    !------? 
+            |                   |      ----/      \\---- 
+            |                   |       \\  \\      /  /
+            |                   |      ..-   --------...
+            |                   |   .?                   \\.
+            |                   | ./                      |
+            |                   | /     __                | i speak british
+            |                   ||       \\                |
+            |                   ||        \\.____________./
+            |                   ||    ______           | _______
+            |                   ||  /"       "\\        |/"       "\\
+            |                   ||    _-_      |       |  _--_     |
+            |                   ||  /"   '\\___/        |/"   '\\___/
+            |                   ||                     |
+            |                   ||                     |
+            |                   ||                     |
+            |                   ||                     |
+            |                   ||                     |
+            |                   ||                     |
+            |                   ||                     |
+            |                   ||                     |
+            |                   ||                     |
+            |                   ||                     |
+            |                   ||                     |
+            |                   ||                     |
+            |                   ||                     |
+            |                   ||                     /
+            |                   ||                     |
+            |                   ||                    / 
+            |                   ||                   | 
+            |                   ||                   /
+            |                   ||                  /
+            |                   ||                 |
+            |                   ||                / 
+            |                   ||               / 
+            |                   ||               |
+            |                   ||              /
+            |                   ||             /
+            |                   ||            /
+            |                   ||          _/
+            |                   ||      ___/ 
+            |                   ||_____/ 
+            |                   |
+            |                   |LONG SLUG LONG SLUG LONG SLUG
+            |                   |LONG SLUG LONG SLUG LONG SLUG
+            |                   |LONG SLUG LONG SLUG LONG SLUG
+`;
+
+var grim_reaper =
+`            |                   |  
+            |                   |     An extremely rare encounter, but...
+            |                   |
+            |                   |                   ___          
+            |                   |                  /   \\\\        
+            |                   |             /\\\\ | . . \\\\       
+            |                   |           ////\\\\|     ||  
+            |                   |         ////   \\\\ ___//\\  
+            |                   |        ///      \\\\      \\  
+            |                   |       ///       |\\\\      |   
+            |                   |      //         | \\\\  \\   \\  
+            |                   |      /          |  \\\\  \\   \\ 
+            |                   |                 |   \\\\ /   / 
+            |                   |                 |    \\/   / 
+            |                   |                 |     \\\\/| 
+            |                   |                 |       \\\\ 
+            |                   |                 |        | 
+            |                   |                 |_________\\    
+            |                   |  This forehead WILL make your computer crash.
+`;
 
   // Rare cases for extreme scrollers
 
@@ -109,9 +232,24 @@ var slugs = '𓆑𓆑𓆑𓆑  |                   |  \n'
     addThis += slugs;
   }
 
-  // The Earth - ULTRA RARE
-  if (Math.random() < 0.0001) { 
+  // The Earth - RARE
+  if (Math.random() < 0.0003) { 
     addThis += earth;
+  }
+
+  // Griffin - ULTRA RARE
+  if (Math.random() < 0.0001) { 
+    addThis += griffin;
+  }
+
+  // Long Slug - ULTRA RARE
+  if (Math.random() < 0.0001) { 
+    addThis += long_slug;
+  }
+
+  // Grim Reaper - IMPOSSIBLE
+  if (Math.random() < 0.00001) { 
+    addThis += grim_reaper;
   }
 
  // Text cases
@@ -127,9 +265,6 @@ var slugs = '𓆑𓆑𓆑𓆑  |                   |  \n'
   if (Math.random() < 0.007) {
     addThis += my_string5;
   }
-  if (Math.random() < 0.0001) {
-    addThis += my_string6;
-  } 
   if (Math.random() < 0.007) { 
     addThis += orElse;
   }
