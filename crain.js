@@ -284,7 +284,7 @@ var grim_reaper =
     addThis += orElse;
   }
 
-  addThis += my_string.repeat(15);
+  addThis += my_string.repeat(20);
   pre.innerText += addThis;
 
 });
