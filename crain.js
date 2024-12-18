@@ -51,7 +51,6 @@ var butterfly =
 `(\\o/)       |                   |
 (/|\\)       |                   |
 `;
-
 var birb =
 `            |                   |  
             |                   |   .-.
@@ -83,10 +82,17 @@ var bee =
 `    __      |                   |  
    // \\     |                   |
    \\\\_/ //  |                   |
-  -(||)(')  |                   |
+  <(||)(')  |                   |
     '''     |                   |
 `;
 var slugs = '𓆑𓆑𓆑𓆑  |                   |  \n'
+var doge =
+`            |                   |  
+     __     |                   |
+(___()'\`;   |                   |
+/     /\`    |                   |
+\\\\"--\\\\     |                   |
+`;
 
 var earth =
 `            |                   |  
@@ -102,32 +108,11 @@ var earth =
             |                   |          '-.___'_.-'
 `;
 
-var griffin =
-`            |                   |               A LEGENDARY GRIFFIN!!!
-            |                   |
-            |                   |              _____,    _..-=-=-=-=-====--,
-            |                   |           _.'a   /  .-',___,..=--=--==-''
-            |                   |          ( _     \\ /  //___/-=---=----'
-            |                   |           ' '\\    /  //---/--==----=-'
-            |                   |        ,-.    | / \\_//-_.'==-==---='
-            |                   |       (.-.'\\  | |'../-'=-=-=-=--'
-            |                   |        (' '\\'\\| //_|-\\.';-~''''~,        _
-            |                   |             \\ | \\_,_,_\\.'        \\     .'_'\\
-            |                   |              '\\            ,    , \\    || '\\\\
-            |                   |                \\    /   _.--\\    \\ '._.'/  / |
-            |                   |                /  /'---'   \\ \\   |''---'   \\/
-            |                   |               / /'          \\ ;-. \\
-            |                   |            __/ /           __) \\ ) '|
-            |                   |          ((='--;)         (,___/(,_/
-            |                   |
-            |                   |        You may be scrolling a bit too much... 
-            |                   |      or you are just a bit too lucky.
-            |                   |      But give yourself a pat on the back,
-            |                   |       because this is encounter is LEGENDARY.
-`;
-
 var long_slug = 
 `            |                   |LONG SLUG LONG SLUG LONG SLUG
+            |                   |LONG SLUG LONG SLUG LONG SLUG
+            |                   |LONG SLUG LONG SLUG LONG SLUG
+            |                   |LONG SLUG LONG SLUG LONG SLUG
             |                   |LONG SLUG LONG SLUG LONG SLUG
             |                   |LONG SLUG LONG SLUG LONG SLUG
             |                   |     _.**._      _.**._
@@ -144,8 +129,8 @@ var long_slug =
             |                   | /     __                | i speak british
             |                   ||       \\                |
             |                   ||        \\.____________./
-            |                   ||    ______           | _______
-            |                   ||  /"       "\\        |/"       "\\
+            |                   ||    ______           |  ______
+            |                   ||  /"       "\\        |/"      '"\\
             |                   ||    _-_      |       |  _--_     |
             |                   ||  /"   '\\___/        |/"   '\\___/
             |                   ||                     |
@@ -170,7 +155,7 @@ var long_slug =
             |                   ||                 |
             |                   ||                / 
             |                   ||               / 
-            |                   ||               |
+            |                   ||              |
             |                   ||              /
             |                   ||             /
             |                   ||            /
@@ -181,6 +166,33 @@ var long_slug =
             |                   |LONG SLUG LONG SLUG LONG SLUG
             |                   |LONG SLUG LONG SLUG LONG SLUG
             |                   |LONG SLUG LONG SLUG LONG SLUG
+            |                   |LONG SLUG LONG SLUG LONG SLUG
+            |                   |LONG SLUG LONG SLUG LONG SLUG
+            |                   |LONG SLUG LONG SLUG LONG SLUG
+`;
+
+var griffin =
+`            |                   |               A LEGENDARY GRIFFIN!!!
+            |                   |
+            |                   |              _____,    _..-=-=-=-=-====--,
+            |                   |           _.'a   /  .-',___,..=--=--==-''
+            |                   |          ( _     \\ /  //___/-=---=----'
+            |                   |           ' '\\    /  //---/--==----=-'
+            |                   |        ,-.    | / \\_//-_.'==-==---='
+            |                   |       (.-.'\\  | |'../-'=-=-=-=--'
+            |                   |        (' '\\'\\| //_|-\\.';-~''''~,        _
+            |                   |             \\ | \\_,_,_\\.'        \\     .'_'\\
+            |                   |              '\\            ,    , \\    || '\\\\
+            |                   |                \\    /   _.--\\    \\ '._.'/  / |
+            |                   |                /  /'---'   \\ \\   |''---'   \\/
+            |                   |               / /'          \\ ;-. \\
+            |                   |            __/ /           __) \\ ) '|
+            |                   |          ((='--;)         (,___/(,_/
+            |                   |
+            |                   |        You may be scrolling a bit too much... 
+            |                   |      or you are just a bit too lucky.
+            |                   |      But give yourself a pat on the back,
+            |                   |       because this is encounter is LEGENDARY.
 `;
 
 var grim_reaper =
@@ -210,7 +222,7 @@ var grim_reaper =
   var addThis = '';
 
   // Animal cases
-  if (Math.random() < 0.002) { 
+  if (Math.random() < 0.0025) { 
     addThis += monkey;
   }
   if (Math.random() < 0.005) { 
@@ -219,17 +231,20 @@ var grim_reaper =
   if (Math.random() < 0.005) { 
     addThis += birb;
   }
-  if (Math.random() < 0.0008) { 
+  if (Math.random() < 0.00085) { 
     addThis += spider;
   }
-  if (Math.random() < 0.003) { 
+  if (Math.random() < 0.0035) { 
     addThis += camel;
   }
-  if (Math.random() < 0.002) { 
+  if (Math.random() < 0.004) { 
     addThis += bee;
   }
   if (Math.random() < 0.0008) { 
     addThis += slugs;
+  }
+  if (Math.random() < 0.004) { 
+    addThis += doge;
   }
 
   // The Earth - RARE
@@ -237,14 +252,14 @@ var grim_reaper =
     addThis += earth;
   }
 
+  // Long Slug - ULTRA RARE
+  if (Math.random() < 0.00015) { 
+    addThis += long_slug;
+  }
+
   // Griffin - ULTRA RARE
   if (Math.random() < 0.0001) { 
     addThis += griffin;
-  }
-
-  // Long Slug - ULTRA RARE
-  if (Math.random() < 0.0001) { 
-    addThis += long_slug;
   }
 
   // Grim Reaper - IMPOSSIBLE
