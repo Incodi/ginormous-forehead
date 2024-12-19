@@ -115,7 +115,7 @@ var long_slug =
             |                   |LONG SLUG LONG SLUG LONG SLUG
             |                   |LONG SLUG LONG SLUG LONG SLUG
             |                   |LONG SLUG LONG SLUG LONG SLUG
-            |                   |     _.**._      _.**._
+            |                   |     _.--._      _.--._
             |                   |   /   M    \\  /   M    \\
             |                   |  |   MM     ||   MM     |
             |                   |  |   MMMM   ||   MMMM   |
@@ -123,8 +123,8 @@ var long_slug =
             |                   |    ?------!    !------? 
             |                   |      ----/      \\---- 
             |                   |       \\  \\      /  /
-            |                   |      ..-   --------...
-            |                   |   .?                   \\.
+            |                   |      ..-   --------..._
+            |                   |   .?                   \\
             |                   | ./                      |
             |                   | /     __                | i speak british
             |                   ||       \\                |
@@ -222,38 +222,40 @@ var grim_reaper =
   var addThis = '';
 
   // Animal cases
-  if (Math.random() < 0.0025) { 
+  if (Math.random() < 0.0035) { 
     addThis += monkey;
   }
-  if (Math.random() < 0.005) { 
+  if (Math.random() < 0.006) { 
     addThis += butterfly;
   }
-  if (Math.random() < 0.005) { 
+  if (Math.random() < 0.006) { 
     addThis += birb;
   }
-  if (Math.random() < 0.00085) { 
+  if (Math.random() < 0.00095) { 
     addThis += spider;
   }
-  if (Math.random() < 0.0035) { 
+  if (Math.random() < 0.0045) { 
     addThis += camel;
   }
-  if (Math.random() < 0.004) { 
+  if (Math.random() < 0.005) { 
     addThis += bee;
   }
-  if (Math.random() < 0.0008) { 
+  if (Math.random() < 0.001) { 
     addThis += slugs;
   }
-  if (Math.random() < 0.004) { 
+  if (Math.random() < 0.005) { 
     addThis += doge;
   }
 
+  addThis += my_string.repeat(10);
+
   // The Earth - RARE
-  if (Math.random() < 0.0003) { 
+  if (Math.random() < 0.0005) { 
     addThis += earth;
   }
 
   // Long Slug - ULTRA RARE
-  if (Math.random() < 0.00015) { 
+  if (Math.random() < 0.0002) { 
     addThis += long_slug;
   }
 
@@ -284,7 +286,7 @@ var grim_reaper =
     addThis += orElse;
   }
 
-  addThis += my_string.repeat(20);
+  addThis += my_string.repeat(10);
   pre.innerText += addThis;
 
 });
