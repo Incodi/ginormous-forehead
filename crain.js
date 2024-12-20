@@ -5,15 +5,19 @@
 */
 
 document.addEventListener('scroll', function () {
+
   var pre = document.querySelector( 'pre' );
+
+  // Phrase Strings
   var my_string = '            |                   |  \n';
   var my_string2 = '            |                   |crainslug 4 life\n';
-  var my_string3 = '            |subscribe to craine|r \n';
+  var my_string3 = '            |                   |subscribe to crainer\n';
   var my_string4 = '            |slogo is cool      | \n';
   var my_string5 = '            |crainer is cool    | \n';
   var orElse = '            |watch a crainer vid|eo or else... \n'; 
 
-  /*
+  /* Uncomment when copying.
+
   var template =
   `            |                   |  
             |                   |
@@ -33,10 +37,13 @@ document.addEventListener('scroll', function () {
             |                   |
             |                   |
 `;
+
 */
 
-  var monkey = 
-  `            |                   |  
+// Image Strings
+
+var monkey = 
+`            |                   |  
             |                   |    __
             |                   w  c(..)o   (
             |                   |\\__(-)    __)
@@ -56,7 +63,7 @@ var birb =
             |                   |   .-.
             |                   |  /'v'\\
             |                   | (/   \\)
-            |                   |='="="===< 
+            |                   |==="="===< 
             |                   |   |_|
 `;
 var spider =
@@ -217,12 +224,13 @@ var grim_reaper =
             |                   |  This forehead WILL make your computer crash.
 `;
 
-  // Rare cases for extreme scrollers
+  // Random cases for extreme scrollers
 
+  // Variable to accumulate text for each scroll.
   var addThis = '';
 
   // Animal cases
-  if (Math.random() < 0.0035) { 
+  if (Math.random() < 0.0015) { 
     addThis += monkey;
   }
   if (Math.random() < 0.006) { 
@@ -247,6 +255,7 @@ var grim_reaper =
     addThis += doge;
   }
 
+  // Repeat the basic string 10 times.
   addThis += my_string.repeat(10);
 
   // The Earth - RARE
@@ -255,7 +264,7 @@ var grim_reaper =
   }
 
   // Long Slug - ULTRA RARE
-  if (Math.random() < 0.0002) { 
+  if (Math.random() < 0.0001) { 
     addThis += long_slug;
   }
 
@@ -286,7 +295,9 @@ var grim_reaper =
     addThis += orElse;
   }
 
+  // Repeat the basic string 10 times.
   addThis += my_string.repeat(10);
-  pre.innerText += addThis;
 
+  // Insert accumulated text into pre.
+  pre.innerText += addThis;
 });
