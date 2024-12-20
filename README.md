@@ -7,7 +7,9 @@ Click here: [to view the website](https://incodi.github.io/ginormous-forehead/)
 This project is based off of Endless Horse.
 I customized it to match the forehead joke while adding cases that make text or ASCII art appear while scrolling.
 
-## Here's some background:
+I could use this code for a better idea for the future.
+
+## Here's some background (a lot of yapping):
 
 I watch a lot of Youtube, and I have grown up with it. 
 Back in 2013-2018, I really liked to watch a Youtuber called SSundee.
